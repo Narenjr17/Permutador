@@ -54,7 +54,7 @@ namespace Permutador
 			}
 			if(offset.Length>6){
 				MessageBox.Show("El offset contiene mas de 6 valores."); //se detiene
-				PermutadoG.text = " ";
+				OffsetG.Text = "";
 			}
 		}
 		void PermutadoGTextChanged(object sender, EventArgs e)
