@@ -121,12 +121,9 @@ namespace Permutador
 		}
 		void PegarBClick(object sender, EventArgs e){
 			 IDataObject iData = Clipboard.GetDataObject();
-
-    // Determines whether the data is in a format you can use.
-    if(iData.GetDataPresent(DataFormats.Text)) {
-       // Yes it is, so display it in a text box.
-       OffsetG.Text = (String)iData.GetData(DataFormats.Text);
+				 if(iData.GetDataPresent(DataFormats.Text)) {
+				 OffsetG.Text = (String)iData.GetData(DataFormats.Text);
+				}
 		}
-	}
 }
 }
