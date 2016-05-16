@@ -38,11 +38,10 @@ namespace Permutador
 		}
 		void ConvertirClick(object sender, EventArgs e){
 			String offset = OffsetG.Text;
-			if (offset.Length<6){
-				for (int i=offset.Length;i<6;i++){
-					offset= "0"+ offset;
-				}
+			for (int i=offset.Length;i<6;i++){
+				offset= "0"+ offset;
 			}
+		
 			string[] Bytes;
 			Bytes = new string[3];
 			if(offset.Length<=6){
@@ -71,11 +70,8 @@ namespace Permutador
 				PermutadoG.Text = (com + Add);
 			}
 			if(com.Length>6 && com.Length<=8){
-				
-				if (offset.Length<6){
 				for (int i=offset.Length;i<6;i++){
 					offset= "0"+ offset;
-					}
 				}
 				string[] Bytes;
 				Bytes = new string[4];
@@ -91,15 +87,14 @@ namespace Permutador
 			if(com.Length<6){
 				MessageBox.Show("El campo esta vacio");
 			}
-			if(com.Length==6){
+			else if(com.Length==6){
 				PermutadoG.Text = (com + Add);
 			}
-			if(com.Length>6 && com.Length<=8){
-				if (offset.Length<6){
+			else if(com.Length>6 && com.Length<=8){
 				for (int i=offset.Length;i<6;i++){
 					offset= "0"+ offset;
 					}
-				}
+				
 				string[] Bytes;
 				Bytes = new string[4];
 				Bytes[0] = offset.Substring(0, 2);
