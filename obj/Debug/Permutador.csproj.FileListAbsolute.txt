@@ -1,0 +1,8 @@
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\bin\Debug\Permutador.exe.config
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\bin\Debug\Permutador.exe
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\bin\Debug\Permutador.pdb
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\obj\Debug\Permutador.csprojResolveAssemblyReference.cache
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\obj\Debug\Permutador.MainForm.resources
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\obj\Debug\Permutador.csproj.GenerateResource.Cache
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\obj\Debug\Permutador.exe
+C:\Users\Naren Jr\Documents\SharpDevelop Projects\Permutador\obj\Debug\Permutador.pdb
