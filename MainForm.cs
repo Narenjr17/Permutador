@@ -41,7 +41,6 @@ namespace Permutador
 			for (int i=offset.Length;i<6;i++){
 				offset= "0"+ offset;
 			}
-		
 			string[] Bytes;
 			Bytes = new string[3];
 			if(offset.Length<=6){
@@ -55,6 +54,7 @@ namespace Permutador
 			}
 			if(offset.Length>6){
 				MessageBox.Show("El offset contiene mas de 6 valores."); //se detiene
+				PermutadoG.text = " ";
 			}
 		}
 		void PermutadoGTextChanged(object sender, EventArgs e)
@@ -66,10 +66,10 @@ namespace Permutador
 			if(com.Length<6){
 				MessageBox.Show("El campo esta vacio");
 			}
-			if(com.Length==6){
+			else if(com.Length==6){
 				PermutadoG.Text = (com + Add);
 			}
-			if(com.Length>6 && com.Length<=8){
+			else if(com.Length>6 && com.Length<=8){
 				for (int i=offset.Length;i<6;i++){
 					offset= "0"+ offset;
 				}
